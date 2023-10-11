@@ -1,8 +1,3 @@
-'''
-@author: Jiayi Xie (xjyxie@whu.edu.cn)
-Pytorch Implementation of UnifiedSSR model in:
-UnifiedSSR: A Unified Framework of Sequential Search and Recommendation
-'''
 import argparse
 import time
 import pandas as pd

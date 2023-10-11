@@ -1,8 +1,3 @@
-'''
-@author: Jiayi Xie (xjyxie@whu.edu.cn)
-Pytorch Implementation of UnifiedSSR model in:
-UnifiedSSR: A Unified Framework of Sequential Search and Recommendation
-'''
 import os
 from collections import OrderedDict
 import torch
