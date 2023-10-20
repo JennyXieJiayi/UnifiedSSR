@@ -1,5 +1,4 @@
 import argparse
-import time
 import pandas as pd
 import os
 import sys
@@ -50,7 +49,7 @@ def parse_args():
     parser.add_argument('--trained_model_path', type=str, default='')
 
     # data
-    parser.add_argument('--data_name', type=str, default='JDsearch', choices=['JDsearch', 'Amazon_Clothing', 'Amazon_Electronics'])
+    parser.add_argument('--data_name', type=str, default='Amazon_Clothing', choices=['JDsearch', 'Amazon_Clothing', 'Amazon_Electronics'])
     parser.add_argument('--data_root', type=str, default='./datasets')
     parser.add_argument('--padding_value', type=int, default=0)
     parser.add_argument('--query_max_len', type=int, default=50)

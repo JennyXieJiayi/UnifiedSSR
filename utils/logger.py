@@ -1,6 +1,5 @@
 import os
 import logging
-from collections import OrderedDict
 
 
 def create_log_id(dir_path, name):

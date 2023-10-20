@@ -1,7 +1,3 @@
-import matplotlib.pyplot as plt
-import numpy as np
-
-
 class NoamOpt:
 	"Optim wrapper that implements rate."
 
