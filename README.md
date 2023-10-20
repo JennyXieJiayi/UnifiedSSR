@@ -35,6 +35,8 @@ We provide a pretrained model and task-specific finetuned models for the Amazon-
   * We provide the jupyter notebook for Amazon datasets preprocessing in `datasets/amazon_data_processing.ipynb`.
   * You can also directly use the provided preprocessed Amazon-CL dataset in `datasets/Amazon_Clothing`.
 
+Notes: The dataset and model files are large. Please download them from [Google Drive](https://drive.google.com/drive/folders/1GShl2vju5_uXHRgcd1UZinJhmgmDzSw_?usp=share_link) and place them in the project folder.
+
 ## Citation
 
 If you find our codes helpful, please kindly cite the following papers:
