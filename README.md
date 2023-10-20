@@ -32,10 +32,10 @@ We provide a pretrained model and task-specific finetuned models for the Amazon-
   * Amazon dataset can be found in [here](https://nijianmo.github.io/amazon/index.html).
   * JDsearch dataset can be found in [here](https://github.com/rucliujn/JDsearch).
 * Preprocess
-
-[//]: # (  * We provide the jupyter notebook for Amazon datasets preprocessing in `datasets/amazon_data_processing.ipynb`.)
   * You can also directly use the provided preprocessed Amazon-CL dataset in `datasets/Amazon_Clothing`.
   * Feel free to contact the author for the data preprocessing codes.
+  [//]: # (  * We provide the jupyter notebook for Amazon datasets preprocessing in `datasets/amazon_data_processing.ipynb`.)
+  
 
 Notes: The dataset and model files are large. Please download them from [Google Drive](https://drive.google.com/drive/folders/1GShl2vju5_uXHRgcd1UZinJhmgmDzSw_?usp=share_link) and place them in the project folder.
 
