@@ -23,8 +23,8 @@ You can create the environment via `conda env create -f unifiedssr_env.yaml`.
 
 We provide a pretrained model and task-specific finetuned models for the Amazon-CL dataset as follows:
 1. Pretrained model: `models/Amazon_Clothing/pretrain_recommendation_search/model.pth`
-2. Finetuned model for search: `models/Amazon_Clothing/pretrain_recommendation_search/finetune_recommendation/model.pth`
-3. Finetuned model for recommendation: `models/Amazon_Clothing/pretrain_recommendation_search/model.pth`
+2. Finetuned model for search: `models/Amazon_Clothing/pretrain_recommendation_search/finetune_search/model.pth`
+3. Finetuned model for recommendation: `models/Amazon_Clothing/pretrain_recommendation_search/finetune_recommendation/model.pth`
 
 ## Datasets
 
@@ -32,8 +32,10 @@ We provide a pretrained model and task-specific finetuned models for the Amazon-
   * Amazon dataset can be found in [here](https://nijianmo.github.io/amazon/index.html).
   * JDsearch dataset can be found in [here](https://github.com/rucliujn/JDsearch).
 * Preprocess
-  * We provide the jupyter notebook for Amazon datasets preprocessing in `datasets/amazon_data_processing.ipynb`.
+
+[//]: # (  * We provide the jupyter notebook for Amazon datasets preprocessing in `datasets/amazon_data_processing.ipynb`.)
   * You can also directly use the provided preprocessed Amazon-CL dataset in `datasets/Amazon_Clothing`.
+  * Feel free to contact the author for the data preprocessing codes.
 
 Notes: The dataset and model files are large. Please download them from [Google Drive](https://drive.google.com/drive/folders/1GShl2vju5_uXHRgcd1UZinJhmgmDzSw_?usp=share_link) and place them in the project folder.
 
