@@ -1,4 +1,4 @@
-# UnifiedSSR: A Unified Framework of Sequential Search and Recommendation
+# (WWW '24) UnifiedSSR: A Unified Framework of Sequential Search and Recommendation
 
 This is the Pytorch implementation of UnifiedSSR for joint learning of user behavior history in both search and recommendation scenarios.
 
@@ -33,8 +33,7 @@ We provide a pretrained model and task-specific finetuned models for the Amazon-
   * JDsearch dataset can be found in [here](https://github.com/rucliujn/JDsearch).
 * Preprocess
   * Use the provided preprocessed Amazon-CL dataset in `datasets/Amazon_Clothing`.
-  * Feel free to contact the author for the data preprocessing codes.
-  [//]: # (  * We provide the jupyter notebook for Amazon datasets preprocessing in `datasets/amazon_data_processing.ipynb`.)
+  * Feel free to contact the author for more details of the data preprocessing.
   
 
 Notes: The dataset and model files are large. Please download them from [Google Drive](https://drive.google.com/drive/folders/1GShl2vju5_uXHRgcd1UZinJhmgmDzSw_?usp=share_link) and place them in the project folder.
@@ -44,5 +43,18 @@ Notes: The dataset and model files are large. Please download them from [Google 
 If you find our codes helpful, please kindly cite the following papers:
 
 ```
-@article{}
+@article{unifiedssr,
+  author       = {Jiayi Xie and
+                  Shang Liu and
+                  Gao Cong and
+                  Zhenzhong Chen},
+  title        = {UnifiedSSR: {A} Unified Framework of Sequential Search and Recommendation},
+  journal      = {CoRR},
+  volume       = {abs/2310.13921},
+  year         = {2023},
+  url          = {https://doi.org/10.48550/arXiv.2310.13921},
+  doi          = {10.48550/ARXIV.2310.13921},
+  eprinttype    = {arXiv},
+  eprint       = {2310.13921}
+}
 ```
